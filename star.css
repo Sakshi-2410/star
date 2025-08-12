@@ -1,0 +1,83 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.star{
+ background-color: wheat;
+ margin-top: 15rem; 
+margin-left: 26rem; 
+height: 17rem;
+width: 45rem;
+border-radius: 0.75rem;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+h1{
+   padding-top: 4rem;
+   padding-left: 16rem;
+}
+.card{
+   padding-left: 5rem;
+   padding-top: 15rem;
+   font-size: 2rem;
+   cursor: pointer;
+}
+h3{
+   padding-top: 3.5rem;
+   padding-left: 17rem;
+}
+.one {
+   color: rgb(255, 0, 0);
+}
+.two {
+   color: rgb(255, 106, 0);
+}
+.three {
+   color: rgb(251, 255, 120);
+}
+.four {
+   color: rgb(255, 255, 0);
+}
+.five {
+   color: rgb(24, 159, 14);
+} */
+
+*{
+   padding: 0;
+   margin: 0;
+   
+}
+
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* margin-top: 50%; */
+  
+}
+
+.box{
+   height: 200px;
+   width: 400px;
+   background-color: bisque;
+   cursor: pointer;
+   border-radius: 0.90rem;
+}
+.star{
+   
+   align-items: center;
+   justify-content: center;
+   font-size: 2rem;
+   padding-left: 2.1rem;
+   transition: color 0.2s ease;
+}
+
+.heading{
+   padding: 2rem;
+   text-align: center;
+}
+
+.star.active{
+   color: #ff9c1a;
+}
+  
